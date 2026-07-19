@@ -47,6 +47,7 @@ for mod in "${modules[@]}"; do
     echo "::endgroup::"
 done
 
+mkdir -p /etc/pki/containers
 cp /ctx/cosign.pub /etc/pki/containers/ublue-fedora.pub
 chmod 0644 /etc/pki/containers/ublue-fedora.pub
 
