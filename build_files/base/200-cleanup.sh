@@ -26,6 +26,5 @@ dnf5 clean all
 
 mkdir -p /var/tmp &&
     chmod -R 1777 /var/tmp
-ostree container commit
 
 echo "::endgroup::"
