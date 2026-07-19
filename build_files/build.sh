@@ -47,6 +47,9 @@ for mod in "${modules[@]}"; do
     echo "::endgroup::"
 done
 
+cp /ctx/cosign.pub /etc/pki/containers/ublue-fedora.pub
+chmod 0644 /etc/pki/containers/ublue-fedora.pub
+
 /ctx/build_files/base/200-cleanup.sh
 
 echo "==> Build complete: $IMAGE"
