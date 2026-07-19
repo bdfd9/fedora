@@ -223,6 +223,7 @@ packages=(
     ripgrep
     tokei
     uv
+    wireshark
 
     # IME
     fcitx-qt5
