@@ -17,7 +17,7 @@ case "$IMAGE" in
             "hw/base/packages.sh"
             "base/08-firmware.sh"
             "base/10-services.sh"
-            "sign.sh"
+            # "sign.sh"
             "initramfs.sh"
         )
     ;;
@@ -30,7 +30,7 @@ case "$IMAGE" in
             "base/08-firmware.sh"
             "base/10-services.sh"
             "hw/nvidia/packages.sh"
-            "sign.sh"
+            # "sign.sh"
             "initramfs.sh"
         )
     ;;

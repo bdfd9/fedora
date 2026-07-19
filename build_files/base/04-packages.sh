@@ -166,6 +166,7 @@ packages=(
     google-noto-color-emoji-fonts
     google-noto-emoji-fonts
     google-noto-fonts-all
+    google-noto-sans-cjk-fonts
     google-noto-sans-fonts
     jetbrains-mono-fonts-all
     liberation-fonts
@@ -210,6 +211,8 @@ packages=(
     gcc
     git
     jq
+    just
+    kate
     lldb
     make
     mold
