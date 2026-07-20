@@ -292,4 +292,6 @@ packages_to_remove=(
 
 dnf5 -y remove "${packages_to_remove[@]}"
 
+dnf5 -y swap ffmpeg-free ffmpeg --allowerasing
+
 echo "::endgroup::"
