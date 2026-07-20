@@ -6,7 +6,7 @@ set -ouex pipefail
 
 dnf5 -y install terra-release-mesa
 
-dnf5 -y mesa-va-drivers \
+dnf5 -y install mesa-va-drivers \
     mesa-vdpau-drivers \
     mesa-vulkan-drivers
 
