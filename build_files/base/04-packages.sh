@@ -293,5 +293,8 @@ packages_to_remove=(
 dnf5 -y remove "${packages_to_remove[@]}"
 
 dnf5 -y swap ffmpeg-free ffmpeg --allowerasing
+dnf5 -y install @multimedia --setopt="install_weak_deps=False" --exclude=PackageKit-gstreamer-plugin
+
+dnf5 -y install terra-release-mesa
 
 echo "::endgroup::"
