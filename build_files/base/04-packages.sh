@@ -166,16 +166,12 @@ packages=(
     default-fonts
     default-fonts-core-emoji
     fira-code-fonts
-    glibc-all-langpacks
     google-noto-cjk-fonts
     google-noto-color-emoji-fonts
     google-noto-emoji-fonts
     google-noto-fonts-all
     google-noto-sans-cjk-fonts
-    google-noto-sans-fonts
-    jetbrains-mono-fonts-all
     liberation-fonts
-    nerd-fonts
     rsms-inter-fonts
 
     # SMB
