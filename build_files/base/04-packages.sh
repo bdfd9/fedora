@@ -175,7 +175,6 @@ packages=(
     google-noto-sans-fonts
     jetbrains-mono-fonts-all
     liberation-fonts
-    mscore-fonts-all
     nerd-fonts
     rsms-inter-fonts
 
@@ -226,6 +225,7 @@ packages=(
     python3
     python3-pip
     ripgrep
+    tio
     tokei
     uv
     wireshark
@@ -277,7 +277,6 @@ packages=(
     mecab
     mecab-ipadic
     tesseract-langpack-jpn
-    tio
 )
 
 dnf5 -y install "${packages[@]}"
@@ -293,6 +292,7 @@ packages_to_remove=(
     krfb-libs
     podman-docker
     python-music2
+    musescore
 )
 
 dnf5 -y remove "${packages_to_remove[@]}"
